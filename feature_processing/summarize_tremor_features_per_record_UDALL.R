@@ -149,5 +149,5 @@ write.table(kinetic.ftr.all, OUTPUT_FILE, sep="\t", row.names=F, quote=F, na="")
 synStore(File(OUTPUT_FILE, parentId=synapse.folder.id),
          activityName = activityName,
          activityDescription = activityDescription,
-         used = all.used.ids)
+         used = 'https://github.com/itismeghasyam/mpower-feature-analysis/blob/master/feature_processing/summarize_tremor_features_per_record_UDALL.R')
 unlink(OUTPUT_FILE)
